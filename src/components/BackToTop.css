@@ -1,0 +1,51 @@
+
+#btn-style{
+    position: fixed;
+    bottom: 5%;
+    right: 4%;
+    height: 5vh;
+    width: auto;
+    z-index: 9999;
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    background-color: #70795E;
+    border: 2px solid #304016;
+
+}
+
+#btn-style{  
+    cursor: pointer; 
+  
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+  
+    box-shadow: 
+      0.3em 0.3em 0 0 #433D49,
+      inset 0.3em 0.3em 0 0 #70795E;
+    
+    &:hover,
+    &:active {
+      box-shadow: 
+        0 0 0 0 #433D49,
+        inset 6em 3.5em 0 0 #b6bfa7;
+        transform: translateY(5px); 
+        border-color: #304016;
+  
+    }
+    
+  }
+
+  #arrow-style{
+    height: 25px;
+    width: auto;
+    color: white;
+    &:hover,
+    &:focus{
+        color: #433D49;
+      }
+
+  }
+
+

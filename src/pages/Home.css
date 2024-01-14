@@ -1,0 +1,149 @@
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+  
+  .home-text-info {
+    margin-left: 10%;
+  }
+  
+  #profile-img {
+    width: 35%;
+    height: auto;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    z-index: 1;
+  }
+
+.home-title-text{
+    font-size: 110px;
+    font-weight: 600;
+}
+
+.home-name{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.home-description{
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 10%;
+}
+
+#gif-style{
+    width: auto;
+    height: 20vh;
+    transform: scaleY(-1);
+}
+
+
+.gif-container {
+  position: fixed;
+  top: 0;
+  left: 30%;
+  width: 200px; 
+  height: 100px; 
+  overflow: hidden;
+
+}
+
+.gif-container img {
+  width: 100%; 
+  height: auto; 
+  display: block;
+  
+}
+
+.star-container1 {
+  position: fixed;
+  bottom: 28%; 
+  left: 84%; 
+  width: 200px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#star1{
+  width: 30%;
+  height: auto;
+  display: block;
+}
+
+.star-container2 {
+  position: fixed;
+  bottom: 80%; 
+  left: 90%;
+  width: 200px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#star2{
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+.star-container3 {
+  position: fixed;
+  bottom: 78%;
+  left: 87%; 
+  width: 200px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#star3{
+  width: 20%;
+  height: auto;
+  display: block;
+}
+
+.home-description, .home-title-text, .home-name{
+  text-align: left;
+}
+
+.download-btn, .contact-btn {
+  font-size: 20px;
+  padding: .5rem 2.5rem;
+  border-radius: 8px;
+  border: 1px solid #433D49;
+  background:#70795E;
+  color: white;
+  white-space: nowrap;
+
+}
+
+
+.download-btn, .contact-btn{  
+  cursor: pointer; 
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease; 
+
+  box-shadow: 
+    0.3em 0.3em 0 0 #433D49,
+    inset 0.3em 0.3em 0 0 #70795E;
+  
+  &:hover,
+  &:active {
+    box-shadow: 
+      0 0 0 0 #433D49,
+      inset 6em 3.5em 0 0 #b6bfa7;
+      transform: translateY(5px); 
+      border-color: #304016;
+
+  }
+}
+
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

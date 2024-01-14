@@ -1,0 +1,99 @@
+.abt-bg{
+    background-color: beige;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding-top: .05%;
+    padding-bottom: .05%;
+    border-radius:20px;
+    z-index: 2;
+}
+
+#about-section p {
+    font-size: 18px;
+}
+
+#about-section, #contact-me{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact-style{
+    font-weight: 900;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+#contact-email{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+#contact-phone{
+    text-align: center;
+
+}
+
+#contact-email a{
+    color: black;
+}
+
+#contact-email a:hover{
+    color:#ACB2A1;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.icon-container a{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#about-profile-img{
+    border-radius: 1rem;
+    width: 40vw;
+    height: auto;
+}
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.caption{
+    border-radius: 10px;
+    z-index: 1;
+    background-color: pink;
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    top: 50%; 
+    left: 60%; 
+    transform: rotate(-15deg);
+
+}
+
+.caption p {
+    text-align: center;
+}
+
+#tape{
+    z-index: 2;
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    top: 42%; 
+    left: 60%; 
+    transform: rotate(-15deg);
+}

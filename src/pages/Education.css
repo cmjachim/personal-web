@@ -1,0 +1,270 @@
+header {
+    color: black;
+    padding: 10px;
+    justify-content: left;
+    padding-left: 10%;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    cursor: pointer;
+
+  }
+
+#edu-style li:hover{
+    color: #ACB2A1;
+  
+  }
+ 
+  element {
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+body{
+    text-align: center;
+    min-height: 100vh;
+}
+
+p{
+    text-align: left;
+}
+
+hr{
+    width: 80%;
+    border: 1px solid  rgba(136, 163, 94, 0.8);;
+    border-radius: 10px;
+
+}
+
+
+#title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#description{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top:5px;
+
+}
+
+#edu-location{
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin-top: 0;
+
+}
+
+#date{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+#experience, #education, #skills, #relevant-courses{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#experience ul li{
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom:1%;
+
+
+}
+
+li:before {
+    content: "+";
+    padding-right: 5%;
+  }
+
+
+  nav li:before{
+    content: none;
+  }
+
+.skills-container{
+    padding: 1rem 0.5rem 2.5rem 0.5rem;
+}
+
+.skills-container > .text{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+.skills-container .row{
+  margin: 1rem 0;
+}
+
+.skills-container .item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+
+.skills-container .item-text{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    font-weight: 600;
+}
+
+
+.skills-container .item-text span:last-child{
+    position: absolute;
+}
+
+.skills-container .item-text .w-90{
+    margin-left: 90%;
+    font-weight: 500;
+}
+
+.skills-container .item-text .w-80{
+    margin-left: 80%;
+    font-weight: 500;
+}
+.skills-container .item-text .w-70{
+    margin-left: 70%;
+    font-weight: 500;
+}
+.skills-container .item-text .w-60{
+    margin-left: 60%;
+    font-weight: 500;
+}
+.skills-container .item-text .w-50{
+    margin-left: 85%;
+    font-weight: 500;
+}
+.skills-container .item-text .w-40{
+    margin-left: 40%;
+    font-weight: 500;
+}
+
+.skills-title{
+    font-size: 18px;
+}
+
+.progress{
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 12px;
+    width: 100%;
+    background-color: #CEDFD9;
+    overflow: hidden;
+}
+
+.progress-bar{
+    background-color: #304016;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.progress-bar.w-90{
+    width: 90%;
+ 
+}
+.progress-bar.w-80{
+    width: 80%;
+}
+.progress-bar.w-70{
+    width: 70%;
+}
+.progress-bar.w-60{
+    width: 60%;
+}
+
+.progress-bar.w-50{
+    width: 50%;
+}
+
+.progress-bar.w-40{
+    width: 40%;
+}
+
+
+.skills-container .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
+#skills-description{
+    text-align: center;
+}
+
+#course-title{
+    font-weight: 400;
+    color: #304016;
+}
+
+#course-title:hover {
+    font-weight: bold; 
+  }
+
+#course-title:active {
+    color:#FDCA40;
+}
+#course-title:visited{
+   color: #304016;
+
+}
+
+.course-container, .design-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#course-title-style{
+    font-weight: 900;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+.edu-background{
+    background-color: beige;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding-top: .05%;
+    padding-bottom: .05%;
+    border-radius:20px;
+    z-index: 2;
+}
+
+.edu-resume-btn{
+    font-size: 16px;
+    font-weight: 600;
+    background-color:#E4EABE ;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    font-style: italic;
+
+}
+
+.edu-resume-btn:hover{
+    color: #ACB2A1;
+    cursor: pointer;
+}
